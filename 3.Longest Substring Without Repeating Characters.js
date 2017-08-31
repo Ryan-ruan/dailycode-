@@ -13,8 +13,8 @@
 
 //interate the string,while record currentLength of this substring
 //if we find the repeating repeating characters
-//first if currentLength> maxLen ,then maxLen = currentLength
-//then interate the string after this repeating characters
+//first interate the string after this repeating characters
+//then if currentLength> maxLen ,then maxLen = currentLength
 //ryan
 
 
@@ -34,7 +34,7 @@ const lengthOfLongestSubstring = function(s) {
 
         indexOfRepeatChar= subString.indexOf(s.substr(i,1));
 
-        if(indexOfRepeatChar === -1){
+        if(indexOfRepeatChar === -1){      //if current letter(index i) is not in this subString
             currentLen++;
         }
         else{
