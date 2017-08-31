@@ -1,9 +1,17 @@
 # dailycode
 
 
-|Title    | difficulty     | # |Solution |
-| :------ | --------:| :--: |:--: |
-| Two Sum | Easy | 1 |JavaScript|
-| Add Two Numbers   | Medium| 2 |JavaScript|
-| Add Two Numbers   | Medium| 2 |Ruby|
-| Longest Substring Without Repeating Characters  | Easy | 3 |JavaScript|
+| #   |Title                                      | difficulty   |Solution  |
+|:--: | :------                                       | --------:|:--:      |
+| 1   | Two Sum                                          | Easy  |JavaScript|
+| 2   | Add Two Numbers                                  | Medium|JavaScript|
+| 2   | Add Two Numbers                                  | Medium|Ruby      |
+| 3   | Longest Substring Without Repeating Characters   | Medium|JavaScript|
+
+
+##GA warmUps
+
+| #    |Title         | difficulty|Solution   |
+| :--: | :------      | --------: |:--:       |
+| 1    | Raindrops    |  Easy     |JavaScript |
+| 2    |  Leap Years  |  Easy     |JavaScript |
