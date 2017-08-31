@@ -1,5 +1,5 @@
 // 3. Longest Substring Without Repeating Characters
-// Given a string, find the length of the longest substring without repeating characters.
+// Given a string, find the length of the longest substring without indexOfRepeatCharing characters.
 //
 // Examples:
 //
@@ -18,11 +18,11 @@
 //ryan
 
 
-var lengthOfLongestSubstring = function(s) {
+const lengthOfLongestSubstring = function(s) {
     if(s===''){
         return 0;
     }
-    var maxLen=1,
+    let maxLen=1,
     currentLen=1,
     len=s.length,
     i,
@@ -32,13 +32,13 @@ var lengthOfLongestSubstring = function(s) {
 
         const subString =s.substr(i-currentLen,currentLen);
 
-        repeat = subString.indexOf(s.substr(i,1));
+        indexOfRepeatChar= subString.indexOf(s.substr(i,1));
 
-        if(repeat === -1){
+        if(indexOfRepeatChar === -1){
             currentLen++;
         }
         else{
-            currentLen -= repeat;
+            currentLen -= indexOfRepeatChar;
         }
         if(maxLen<currentLen){
             maxLen = currentLen;
